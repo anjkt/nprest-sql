@@ -12,7 +12,7 @@ const handleErrors = require('./api/middlewares/error/handleErrors');
 const app = express();
 
 //import Route - Views 
-const router = require("./api/routes/routes");
+const router = require("./api/routes/router");
 
 //middlewares 
 // 1. Cross Origin 
